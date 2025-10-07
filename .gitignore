@@ -1,0 +1,11 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/allure-results/
+/blob-report/
+/playwright/.cache/
+
+# dev
+.env
+rest.http
