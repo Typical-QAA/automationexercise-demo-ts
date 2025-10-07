@@ -119,7 +119,7 @@ npm run ci:test:smoke
 
 The project includes GitHub Actions workflow configuration for continuous integration that executes both API and UI test suites. The workflow runs on push to main branch, pull requests, and on a cron schedule at 00:00 daily.
 
-Allure reports are configured and deployed to GitHub Pages at <ALLURE_REPORT_URL>.
+Allure reports are configured and deployed to GitHub Pages at <https://typical-qaa.github.io/automationexercise-demo-ts/>.
 
 ## Framework Considerations
 
