@@ -1,0 +1,5 @@
+export { default as brandsList } from './brandsList.schema.json'
+export { default as message } from './message.schema.json'
+export { default as productsList } from './productsList.schema.json'
+export { default as searchProduct } from './searchProduct.schema.json'
+export { default as userAccount } from './userAccount.schema.json'

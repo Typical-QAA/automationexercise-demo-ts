@@ -1,0 +1,38 @@
+{
+  "name": "automationexercise-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ci:test": "npx playwright test --config=environment/playwright-configs/base-ci.config.ts",
+    "ci:test:api": "npx playwright test --project=api --config=environment/playwright-configs/base-ci.config.ts",
+    "ci:test:critical": "npx playwright test --grep @critical --config=environment/playwright-configs/base-ci.config.ts",
+    "ci:test:smoke": "npx playwright test --grep @smoke --config=environment/playwright-configs/base-ci.config.ts",
+    "ci:test:ui": "npx playwright test --project=ui-chromium --config=environment/playwright-configs/base-ci.config.ts",
+    "ci:report": "npx playwright show-report playwright-report/html/ci",
+    "test": "npx playwright test",
+    "test:api": "npx playwright test --project=api",
+    "test:critical": "npx playwright test --grep @critical",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:ui": "npx playwright test --project=ui-chromium",
+    "report": "npx playwright show-report playwright-report/html/local",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Typical-QAA",
+    "url": "https://github.com/Typical-QAA"
+  },
+  "license": "MIT",
+  "description": "AutomationExercise test automation demo framework using Playwright + TypeScript",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.3.0",
+    "ajv": "^8.17.1",
+    "allure-playwright": "^3.4.1",
+    "dotenv": "^17.2.2",
+    "typescript": "^5.9.2"
+  }
+}
