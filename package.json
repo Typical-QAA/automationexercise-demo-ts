@@ -27,12 +27,12 @@
   "license": "MIT",
   "description": "AutomationExercise test automation demo framework using Playwright + TypeScript",
   "devDependencies": {
-    "@faker-js/faker": "^10.0.0",
-    "@playwright/test": "^1.56.0",
-    "@types/node": "^24.3.0",
+    "@faker-js/faker": "^10.2.0",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0",
     "ajv": "^8.17.1",
-    "allure-playwright": "^3.4.1",
-    "dotenv": "^17.2.2",
-    "typescript": "^5.9.2"
+    "allure-playwright": "^3.4.5",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
   }
 }
