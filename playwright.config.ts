@@ -21,6 +21,6 @@ export default defineConfig({
 
   projects: [
     { name: 'api', testDir: 'tests/api', testMatch: '**/*.spec.ts' },
-    { name: 'ui-chromium', testDir: 'tests/ui', testMatch: '**/*.spec.ts', use: { ...devices['Desktop Chrome'] } }
+    { name: 'ui-chromium', testDir: 'tests/ui', testMatch: '**/*.spec.ts', use: { ...devices['Desktop Chrome'], channel: 'chromium' } }
   ]
 })

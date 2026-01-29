@@ -43,7 +43,13 @@ cd automationexercise-demo-ts
 npm install
 ```
 
-- Install Playwright browsers:
+- Install minimal Playwright browsers:
+
+```bash
+npx playwright install chromium --no-shell --with-deps
+```
+
+- (Optional) Install all Playwright browsers:
 
 ```bash
 npx playwright install
